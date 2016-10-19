@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wLS-RE-3Tz">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--SVG Mask-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="SVG Mask" id="BYZ-38-t0r" customClass="EditorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jyp-nB-j4w">
+                                <rect key="frame" x="180" y="204" width="240" height="128"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="250" constant="240" id="Y0w-Td-mIs"/>
+                                    <constraint firstAttribute="height" priority="250" constant="128" id="px7-9f-g6U"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="48G-oa-QPN" appends="YES" id="CRp-bY-G7B"/>
+                                </connections>
+                            </imageView>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aQ8-dA-Wog" customClass="SVGDocumentView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wu9-cC-inX">
+                                <rect key="frame" x="20" y="446" width="560" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.52156862749999999" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="8bQ-9F-XPo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="ГОТОВО">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="pdj-m5-sl9" kind="show" identifier="ShowSVGViewerViewController" id="h7E-N4-d32"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aQ8-dA-Wog" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3eB-vd-O4t"/>
+                            <constraint firstItem="aQ8-dA-Wog" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="46J-tI-kMF"/>
+                            <constraint firstAttribute="trailing" secondItem="Wu9-cC-inX" secondAttribute="trailing" constant="20" id="9WK-cA-VXp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wu9-cC-inX" secondAttribute="bottom" constant="40" id="Ddm-Ze-ECC"/>
+                            <constraint firstAttribute="trailing" secondItem="aQ8-dA-Wog" secondAttribute="trailing" id="Qiq-6L-v44"/>
+                            <constraint firstAttribute="bottom" secondItem="aQ8-dA-Wog" secondAttribute="bottom" id="dTl-eG-AeC"/>
+                            <constraint firstItem="jyp-nB-j4w" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="maP-ZQ-TA4"/>
+                            <constraint firstItem="Wu9-cC-inX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="t61-u0-ohc"/>
+                            <constraint firstItem="jyp-nB-j4w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xr6-jc-fhg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="SVG Mask" id="i6q-zL-Hvu"/>
+                    <connections>
+                        <outlet property="imageView" destination="jyp-nB-j4w" id="wNv-Sn-Gql"/>
+                        <outlet property="imageViewCenterX" destination="xr6-jc-fhg" id="UOK-9e-cik"/>
+                        <outlet property="imageViewCenterY" destination="maP-ZQ-TA4" id="JYx-Hj-Pgg"/>
+                        <outlet property="svgDocumentView" destination="aQ8-dA-Wog" id="dvI-Nf-2pb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="48G-oa-QPN">
+                    <connections>
+                        <action selector="didPanGestrure:" destination="BYZ-38-t0r" id="jRr-XI-9uv"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="384" y="136"/>
+        </scene>
+        <!--Web View-->
+        <scene sceneID="9ck-tZ-mHR">
+            <objects>
+                <viewController title="Web View" id="pdj-m5-sl9" customClass="SVGViewerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d6A-i6-hlj"/>
+                        <viewControllerLayoutGuide type="bottom" id="BFQ-B6-ejh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eF6-Sh-kEA">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lzQ-eS-PBf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lzQ-eS-PBf" firstAttribute="top" secondItem="eF6-Sh-kEA" secondAttribute="top" id="00F-Cc-A0M"/>
+                            <constraint firstItem="lzQ-eS-PBf" firstAttribute="leading" secondItem="eF6-Sh-kEA" secondAttribute="leading" id="3RE-Ot-fXF"/>
+                            <constraint firstAttribute="trailing" secondItem="lzQ-eS-PBf" secondAttribute="trailing" id="Nsm-sr-fAS"/>
+                            <constraint firstAttribute="bottom" secondItem="lzQ-eS-PBf" secondAttribute="bottom" id="ah4-px-dBW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="lzQ-eS-PBf" id="uwA-q0-hSg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="afm-yt-WWI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1162" y="136"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Yel-yW-zgc">
+            <objects>
+                <navigationController id="wLS-RE-3Tz" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="jxS-lD-CUo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="iGl-B7-NzG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3kb-Fb-DEj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-574" y="136"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,17 @@
+PODS:
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVGgh (1.7.1)
+
+DEPENDENCIES:
+  - SDWebImage
+  - SVGgh
+
+SPEC CHECKSUMS:
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVGgh: 1427fd1c1f69a02c64e42ddb2645183e9678facc
+
+PODFILE CHECKSUM: 7a87a73edc488cdc20dc1c6f9a060f792602eb96
+
+COCOAPODS: 1.0.0

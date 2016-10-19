@@ -1,0 +1,6 @@
+framework module Pods_SVG_MASK {
+  umbrella header "Pods-SVG-MASK-umbrella.h"
+
+  export *
+  module * { export * }
+}

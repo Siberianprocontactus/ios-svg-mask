@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8972CE3018246E0C75D4D02B /* Pods_Mask_with_SVG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FA8966318436A3C82A7703 /* Pods_Mask_with_SVG.framework */; };
+		94078C561DB5F0A60007C85D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94078C551DB5F0A60007C85D /* AppDelegate.swift */; };
+		94078C581DB5F0A60007C85D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94078C571DB5F0A60007C85D /* ViewController.swift */; };
+		94078C5B1DB5F0A60007C85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94078C591DB5F0A60007C85D /* Main.storyboard */; };
+		94078C5D1DB5F0A60007C85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94078C5C1DB5F0A60007C85D /* Assets.xcassets */; };
+		94078C601DB5F0A60007C85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94078C5E1DB5F0A60007C85D /* LaunchScreen.storyboard */; };
+		94078C6B1DB5F0A60007C85D /* Mask_with_SVGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94078C6A1DB5F0A60007C85D /* Mask_with_SVGTests.swift */; };
+		94078C761DB5F0A60007C85D /* Mask_with_SVGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94078C751DB5F0A60007C85D /* Mask_with_SVGUITests.swift */; };
+		94084EBC1DB64B2800BEAB2E /* maket_temp.svg in Resources */ = {isa = PBXBuildFile; fileRef = 94084EBB1DB64B2800BEAB2E /* maket_temp.svg */; };
+		94084EC21DB6533A00BEAB2E /* ShowSVGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94084EC11DB6533A00BEAB2E /* ShowSVGViewController.swift */; };
+		94FF4C011DB68EC100B7DFC3 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FF4BFF1DB68EC100B7DFC3 /* Fabric.framework */; };
+		94FF4C021DB68EC100B7DFC3 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FF4C001DB68EC100B7DFC3 /* Crashlytics.framework */; };
+		94FF4C061DB7461E00B7DFC3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF4C051DB7461E00B7DFC3 /* Constants.swift */; };
+		94FF4C081DB7469000B7DFC3 /* SegueIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF4C071DB7469000B7DFC3 /* SegueIdentifiers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94078C671DB5F0A60007C85D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94078C4A1DB5F0A60007C85D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94078C511DB5F0A60007C85D;
+			remoteInfo = "Mask with SVG";
+		};
+		94078C721DB5F0A60007C85D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94078C4A1DB5F0A60007C85D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94078C511DB5F0A60007C85D;
+			remoteInfo = "Mask with SVG";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AC88BE5485A27C90500211D /* Pods-Mask with SVG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mask with SVG.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mask with SVG/Pods-Mask with SVG.release.xcconfig"; sourceTree = "<group>"; };
+		53FA8966318436A3C82A7703 /* Pods_Mask_with_SVG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mask_with_SVG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94078C521DB5F0A60007C85D /* Mask with SVG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mask with SVG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94078C551DB5F0A60007C85D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94078C571DB5F0A60007C85D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94078C5A1DB5F0A60007C85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94078C5C1DB5F0A60007C85D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94078C5F1DB5F0A60007C85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94078C611DB5F0A60007C85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94078C661DB5F0A60007C85D /* Mask with SVGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mask with SVGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94078C6A1DB5F0A60007C85D /* Mask_with_SVGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask_with_SVGTests.swift; sourceTree = "<group>"; };
+		94078C6C1DB5F0A60007C85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94078C711DB5F0A60007C85D /* Mask with SVGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mask with SVGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94078C751DB5F0A60007C85D /* Mask_with_SVGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask_with_SVGUITests.swift; sourceTree = "<group>"; };
+		94078C771DB5F0A60007C85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94084EBB1DB64B2800BEAB2E /* maket_temp.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = maket_temp.svg; sourceTree = "<group>"; };
+		94084EC11DB6533A00BEAB2E /* ShowSVGViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowSVGViewController.swift; sourceTree = "<group>"; };
+		94FF4BFF1DB68EC100B7DFC3 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		94FF4C001DB68EC100B7DFC3 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		94FF4C051DB7461E00B7DFC3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		94FF4C071DB7469000B7DFC3 /* SegueIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueIdentifiers.swift; sourceTree = "<group>"; };
+		D433F6D0F89AAE434B8134AD /* Pods-Mask with SVG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mask with SVG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mask with SVG/Pods-Mask with SVG.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94078C4F1DB5F0A60007C85D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8972CE3018246E0C75D4D02B /* Pods_Mask_with_SVG.framework in Frameworks */,
+				94FF4C021DB68EC100B7DFC3 /* Crashlytics.framework in Frameworks */,
+				94FF4C011DB68EC100B7DFC3 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94078C631DB5F0A60007C85D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94078C6E1DB5F0A60007C85D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A110E5FBA51A5B8061C372A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D433F6D0F89AAE434B8134AD /* Pods-Mask with SVG.debug.xcconfig */,
+				4AC88BE5485A27C90500211D /* Pods-Mask with SVG.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94078C491DB5F0A60007C85D = {
+			isa = PBXGroup;
+			children = (
+				94078C541DB5F0A60007C85D /* Mask with SVG */,
+				94078C691DB5F0A60007C85D /* Mask with SVGTests */,
+				94078C741DB5F0A60007C85D /* Mask with SVGUITests */,
+				94078C531DB5F0A60007C85D /* Products */,
+				2A110E5FBA51A5B8061C372A /* Pods */,
+				A5FCA90C00B2720E4D784569 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94078C531DB5F0A60007C85D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94078C521DB5F0A60007C85D /* Mask with SVG.app */,
+				94078C661DB5F0A60007C85D /* Mask with SVGTests.xctest */,
+				94078C711DB5F0A60007C85D /* Mask with SVGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94078C541DB5F0A60007C85D /* Mask with SVG */ = {
+			isa = PBXGroup;
+			children = (
+				94FF4C041DB7450300B7DFC3 /* Resources */,
+				94FF4C031DB7427B00B7DFC3 /* Constants */,
+				94084EC01DB6528A00BEAB2E /* Application */,
+				94084EBF1DB6526000BEAB2E /* Controllers */,
+				94078C591DB5F0A60007C85D /* Main.storyboard */,
+				94078C5E1DB5F0A60007C85D /* LaunchScreen.storyboard */,
+			);
+			path = "Mask with SVG";
+			sourceTree = "<group>";
+		};
+		94078C691DB5F0A60007C85D /* Mask with SVGTests */ = {
+			isa = PBXGroup;
+			children = (
+				94078C6A1DB5F0A60007C85D /* Mask_with_SVGTests.swift */,
+				94078C6C1DB5F0A60007C85D /* Info.plist */,
+			);
+			path = "Mask with SVGTests";
+			sourceTree = "<group>";
+		};
+		94078C741DB5F0A60007C85D /* Mask with SVGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94078C751DB5F0A60007C85D /* Mask_with_SVGUITests.swift */,
+				94078C771DB5F0A60007C85D /* Info.plist */,
+			);
+			path = "Mask with SVGUITests";
+			sourceTree = "<group>";
+		};
+		94084EBF1DB6526000BEAB2E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				94078C571DB5F0A60007C85D /* ViewController.swift */,
+				94084EC11DB6533A00BEAB2E /* ShowSVGViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		94084EC01DB6528A00BEAB2E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				94078C611DB5F0A60007C85D /* Info.plist */,
+				94078C551DB5F0A60007C85D /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		94FF4C031DB7427B00B7DFC3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				94FF4C051DB7461E00B7DFC3 /* Constants.swift */,
+				94FF4C071DB7469000B7DFC3 /* SegueIdentifiers.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		94FF4C041DB7450300B7DFC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94078C5C1DB5F0A60007C85D /* Assets.xcassets */,
+				94084EBB1DB64B2800BEAB2E /* maket_temp.svg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A5FCA90C00B2720E4D784569 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94FF4BFF1DB68EC100B7DFC3 /* Fabric.framework */,
+				94FF4C001DB68EC100B7DFC3 /* Crashlytics.framework */,
+				53FA8966318436A3C82A7703 /* Pods_Mask_with_SVG.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94078C511DB5F0A60007C85D /* Mask with SVG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94078C7A1DB5F0A60007C85D /* Build configuration list for PBXNativeTarget "Mask with SVG" */;
+			buildPhases = (
+				2DB41DEDD90D9C2BA6561887 /* 📦 Check Pods Manifest.lock */,
+				94078C4E1DB5F0A60007C85D /* Sources */,
+				94078C4F1DB5F0A60007C85D /* Frameworks */,
+				94078C501DB5F0A60007C85D /* Resources */,
+				7F14338A0DDEAB8F022A67AB /* 📦 Embed Pods Frameworks */,
+				BCDC23A253E6BCFB5BEF3A73 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mask with SVG";
+			productName = "Mask with SVG";
+			productReference = 94078C521DB5F0A60007C85D /* Mask with SVG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94078C651DB5F0A60007C85D /* Mask with SVGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94078C7D1DB5F0A60007C85D /* Build configuration list for PBXNativeTarget "Mask with SVGTests" */;
+			buildPhases = (
+				94078C621DB5F0A60007C85D /* Sources */,
+				94078C631DB5F0A60007C85D /* Frameworks */,
+				94078C641DB5F0A60007C85D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94078C681DB5F0A60007C85D /* PBXTargetDependency */,
+			);
+			name = "Mask with SVGTests";
+			productName = "Mask with SVGTests";
+			productReference = 94078C661DB5F0A60007C85D /* Mask with SVGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94078C701DB5F0A60007C85D /* Mask with SVGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94078C801DB5F0A60007C85D /* Build configuration list for PBXNativeTarget "Mask with SVGUITests" */;
+			buildPhases = (
+				94078C6D1DB5F0A60007C85D /* Sources */,
+				94078C6E1DB5F0A60007C85D /* Frameworks */,
+				94078C6F1DB5F0A60007C85D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94078C731DB5F0A60007C85D /* PBXTargetDependency */,
+			);
+			name = "Mask with SVGUITests";
+			productName = "Mask with SVGUITests";
+			productReference = 94078C711DB5F0A60007C85D /* Mask with SVGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94078C4A1DB5F0A60007C85D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Nurbolat Yerdikul";
+				TargetAttributes = {
+					94078C511DB5F0A60007C85D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B5SF844GXP;
+						ProvisioningStyle = Automatic;
+					};
+					94078C651DB5F0A60007C85D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B5SF844GXP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94078C511DB5F0A60007C85D;
+					};
+					94078C701DB5F0A60007C85D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B5SF844GXP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94078C511DB5F0A60007C85D;
+					};
+				};
+			};
+			buildConfigurationList = 94078C4D1DB5F0A60007C85D /* Build configuration list for PBXProject "Mask with SVG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94078C491DB5F0A60007C85D;
+			productRefGroup = 94078C531DB5F0A60007C85D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94078C511DB5F0A60007C85D /* Mask with SVG */,
+				94078C651DB5F0A60007C85D /* Mask with SVGTests */,
+				94078C701DB5F0A60007C85D /* Mask with SVGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94078C501DB5F0A60007C85D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94078C601DB5F0A60007C85D /* LaunchScreen.storyboard in Resources */,
+				94078C5D1DB5F0A60007C85D /* Assets.xcassets in Resources */,
+				94078C5B1DB5F0A60007C85D /* Main.storyboard in Resources */,
+				94084EBC1DB64B2800BEAB2E /* maket_temp.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94078C641DB5F0A60007C85D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94078C6F1DB5F0A60007C85D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DB41DEDD90D9C2BA6561887 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F14338A0DDEAB8F022A67AB /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mask with SVG/Pods-Mask with SVG-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCDC23A253E6BCFB5BEF3A73 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mask with SVG/Pods-Mask with SVG-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94078C4E1DB5F0A60007C85D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FF4C081DB7469000B7DFC3 /* SegueIdentifiers.swift in Sources */,
+				94078C581DB5F0A60007C85D /* ViewController.swift in Sources */,
+				94084EC21DB6533A00BEAB2E /* ShowSVGViewController.swift in Sources */,
+				94078C561DB5F0A60007C85D /* AppDelegate.swift in Sources */,
+				94FF4C061DB7461E00B7DFC3 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94078C621DB5F0A60007C85D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94078C6B1DB5F0A60007C85D /* Mask_with_SVGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94078C6D1DB5F0A60007C85D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94078C761DB5F0A60007C85D /* Mask_with_SVGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94078C681DB5F0A60007C85D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94078C511DB5F0A60007C85D /* Mask with SVG */;
+			targetProxy = 94078C671DB5F0A60007C85D /* PBXContainerItemProxy */;
+		};
+		94078C731DB5F0A60007C85D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94078C511DB5F0A60007C85D /* Mask with SVG */;
+			targetProxy = 94078C721DB5F0A60007C85D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94078C591DB5F0A60007C85D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94078C5A1DB5F0A60007C85D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94078C5E1DB5F0A60007C85D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94078C5F1DB5F0A60007C85D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94078C781DB5F0A60007C85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94078C791DB5F0A60007C85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94078C7B1DB5F0A60007C85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D433F6D0F89AAE434B8134AD /* Pods-Mask with SVG.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B5SF844GXP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Mask with SVG/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.siberian.Mask-with-SVG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94078C7C1DB5F0A60007C85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC88BE5485A27C90500211D /* Pods-Mask with SVG.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B5SF844GXP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Mask with SVG/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.siberian.Mask-with-SVG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94078C7E1DB5F0A60007C85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B5SF844GXP;
+				INFOPLIST_FILE = "Mask with SVGTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.siberian.Mask-with-SVGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mask with SVG.app/Mask with SVG";
+			};
+			name = Debug;
+		};
+		94078C7F1DB5F0A60007C85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B5SF844GXP;
+				INFOPLIST_FILE = "Mask with SVGTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.siberian.Mask-with-SVGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mask with SVG.app/Mask with SVG";
+			};
+			name = Release;
+		};
+		94078C811DB5F0A60007C85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B5SF844GXP;
+				INFOPLIST_FILE = "Mask with SVGUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.siberian.Mask-with-SVGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mask with SVG";
+			};
+			name = Debug;
+		};
+		94078C821DB5F0A60007C85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B5SF844GXP;
+				INFOPLIST_FILE = "Mask with SVGUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.siberian.Mask-with-SVGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mask with SVG";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94078C4D1DB5F0A60007C85D /* Build configuration list for PBXProject "Mask with SVG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94078C781DB5F0A60007C85D /* Debug */,
+				94078C791DB5F0A60007C85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078C7A1DB5F0A60007C85D /* Build configuration list for PBXNativeTarget "Mask with SVG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94078C7B1DB5F0A60007C85D /* Debug */,
+				94078C7C1DB5F0A60007C85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078C7D1DB5F0A60007C85D /* Build configuration list for PBXNativeTarget "Mask with SVGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94078C7E1DB5F0A60007C85D /* Debug */,
+				94078C7F1DB5F0A60007C85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078C801DB5F0A60007C85D /* Build configuration list for PBXNativeTarget "Mask with SVGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94078C811DB5F0A60007C85D /* Debug */,
+				94078C821DB5F0A60007C85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94078C4A1DB5F0A60007C85D /* Project object */;
+}

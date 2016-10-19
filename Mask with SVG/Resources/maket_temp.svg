@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="%.0f" height="%.0f" viewBox="0 0 %.0f %.0f" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    %@
-    <rect x="0" y="0" width="%.0f" fill="#dddddd" height="%.0f" mask="url(#mask-2)"/>
-    <mask id="mask-2">
-       <rect x="0" y="0" width="%.0f" height="%.0f" fill="white"/>
-       <circle cx="%li" cy="%li" r="150" fill="black"/>
-    </mask>
- </svg>
